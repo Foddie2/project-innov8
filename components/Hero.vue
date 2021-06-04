@@ -1,5 +1,6 @@
 <template>
-  <div class="hero-image">
+<section class="bg-image">
+  <div class="hero-image container">
     <div class="hero-text">
         <p class="snippet">Do you have an <strong>innovative business idea</strong> that addresses our most pressing <strong>challenges?</strong></p>
       <button class="button btn">APPLY NOW</button>
@@ -7,6 +8,7 @@
 
 
   </div>
+  </section>
 </template>
 
 <script>
@@ -16,14 +18,19 @@
 </script>
 
 <style scoped>
- .hero-image {
-   background-image: src="~assets/images/hero.jpg";
-  /* height: 60vh; */
+ .bg-image {
+   background-image: url("~assets/images/hero-bg.jpg");
+   width: 100%;
+  height: 33em;
   position: relative;
   display: flex;
   padding: 5rem 0;
   align-items: flex-start;
   justify-content: space-between;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
     }
     .hero-text {
         width: 49%;

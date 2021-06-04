@@ -1,14 +1,19 @@
 <template>
-  <div>
-    <nav class="navbar navbar-expand-lg navbar-light bg-white">
-  <a class="navbar-brand" href="#">Navbar</a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-  <div class="collapse navbar-collapse" id="navbarNav">
+  <div class="container">
+
+<div class="Nav">
+    <nav class="navbar navbar-expand-md navbar-light bg-white">
+        <a href="#" class="navbar-brand">
+            <img class="logo" src="~assets/images/Innov8 Logo.png" alt="Logo">
+        </a>
+        <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNav">
     <ul class="navbar-nav mx-auto">
       <li class="nav-item active">
-        <a class="nav-link active" href="#">About <span class="sr-only">(current)</span></a>
+        <a class="nav-link active" href="#">About <span class="sr-only" font-weight-bold>(current)</span></a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="#">Eligibility Criteria</a>
@@ -30,8 +35,9 @@
          <a href="#"><i class="bi bi-person-fill"></i> Login</a>
     </ul>
   </div>
-</nav>
+    </nav>
 
+</div>
 
 </div>
 </template>
@@ -43,6 +49,16 @@
 </script>
 
 <style >
+.active a {
+        color: black;
+        font-weight: bold;
+    }
+
+.logo{
+  height: 100%;
+  width: 9rem;
+
+}
 .navbar-brand{
   color: #0133A1 !Important;
 }
