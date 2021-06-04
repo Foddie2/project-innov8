@@ -4,7 +4,7 @@
 <div class="Nav">
     <nav class="navbar navbar-expand-md navbar-light bg-white">
         <a href="#" class="navbar-brand">
-            <img class="logo" src="~assets/images/Innov8 Logo.png" alt="Logo">
+            <img class="logo" src="~assets/images/Svg/Innov8 Logo.svg" alt="Logo">
         </a>
         <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
             <span class="navbar-toggler-icon"></span>
