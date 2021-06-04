@@ -5,6 +5,7 @@
       <Hero/>
       <CardDisplay/>
       <CardSection/>
+      <LargeCards/>
     </div>
   </div>
 </template>
