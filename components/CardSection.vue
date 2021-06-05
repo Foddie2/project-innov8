@@ -93,9 +93,10 @@
    height: 42em;
 }
 
-img .logo{
+.logo{
   height: 40%;
-  width: 5rem;
+  width: 4rem;
+  object-fit: fill;
 }
 
 .card-body{
