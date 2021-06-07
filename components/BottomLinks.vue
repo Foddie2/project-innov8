@@ -43,4 +43,13 @@
  .logo-links{
    display: flex;
  }
+
+ @media (max-width: 500px) {
+  .logo-links {
+    display: contents;
+}
+.bottom-icon {
+    margin-top: 2em;
+}
+  }
 </style>

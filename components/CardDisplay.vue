@@ -4,7 +4,7 @@
 <div class="container ">
   <div class="text-container col-md-10 mx-auto" >
 
-  <div class="col-md-6 text-area order-sm-first">
+  <div class="col-md-6 col-sm text-area order-sm-first">
     <h5 class="title">About <strong>Project Innov8</strong></h5>
       <p class="text">The internal innovation challenge is an opportunity for bold Stanbic staff to form cross-departmental teams that are determined to develop new ideas meant to address customer-centric challenges. <br> The challenge is open to all Stanbic staff with 30 staff members, in 10 teams of 3 individuals, selected to participate in the program. <br>During the program, Stanbic Innovators will be supported through the process of interrogating their ideas, developing business models, and pitching them to the bank. <br> <br> During the final pitch a winning team and 2 runners up will be selected. Walking away with $10,000, $5,000 and $2,500 in prizes, respectively.</p>
         <h5><strong>Innovation challenge outcomes</strong></h5>
@@ -20,7 +20,7 @@
 
 <div class="container ">
   <div class="text-container col-md-10 mx-auto" >
-  <div class="col-md-6 mt-3 title-text order-sm-last">
+  <div class="col-md-6 mt-3 col-sm title-text order-sm-last">
           <h5 class="title ml-4">Eligibility <strong>Criteria</strong></h5>
           <ul>
             <li>The submitting team must be <strong>Stanbic Bank Zambia</strong></li>
@@ -33,7 +33,8 @@
             <li> The winning team of the incubation programme must be able to attend a <strong>4-week idea development programme in</strong></li>
           </ul>
         </div>
-    <div>
+    <div class="art-clip">
+      <div id="triangle"></div>
       <img src="~assets/images/person-text.jpg"/>
     </div>
   </div>
@@ -56,7 +57,15 @@
 .title-text{
   padding: 1em;
 }
-
+#triangle {
+  top: 9px;
+  left: 364px;
+  position: absolute;
+	background-color: #F3F3F4;
+	clip-path: polygon(100% 0, 71% 19%, 100% 39%);
+	width: 100px;
+	height: 100px;
+}
 .card-section{
   background:#F3F3F4;;
   padding:1em;
@@ -119,5 +128,18 @@ p{
   font-weight: normal;
   margin-bottom: 0;
 }
+@media (max-width: 500px) {
+        .container {
+          width: 100%;
+        }
+        .text-container {
+          width: 100%;
+          display: grid;
+          padding: initial;
+        }
+        .text-area {
+          margin-bottom: 2em;
+}
+    }
 
 </style>

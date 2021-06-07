@@ -24,7 +24,9 @@
   height: 32em;
   position: relative;
   display: flex;
-  padding: 5rem 0;
+  padding-top: 42%;
+
+  padding: 0.5rem 0;
   align-items: flex-start;
   justify-content: space-between;
   background-position: center;
@@ -42,7 +44,7 @@
     } */
     .snippet {
         color:#0133A1;
-        font-size: 2.0rem;
+        font-size: 2.0rem !Important;
     }
     .image {
         width: 27.5rem;
@@ -67,10 +69,15 @@
 
     @media (max-width: 500px) {
         .Hero {
-            height: 50vh;
+            min-height: 50vh;
         }
     }
-
+    /* .hero-text {
+      margin-top: 1em;
+    } */
+    .snippet{
+      font-size: 1.5em ;
+    }
     .img {
       width: 100px;
       height: 100px;

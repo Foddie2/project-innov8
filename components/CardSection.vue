@@ -1,15 +1,16 @@
 <template>
+<div class="card-jaribu">
   <section class="bg-color" >
     <div class="container " style="display:flex">
-      <div class="row mt-3">
-  <div class="col-sm-3 card-s mb-3 mt-5" style="max-width: 18rem;">
+      <div class="row mt-3 ">
+  <div class="col-6 col-md-3 card-s mb-3 mt-5 col-lg-3 ">
     <div class="card text-card text-center">
       <div class="card-body">
         <h5 class="card-title">Challenge <strong>Benefits</strong></h5>
       </div>
     </div>
   </div>
-  <div class="col-sm-3 card-s mb-3 mt-5" style="max-width: 18rem;">
+  <div class="col-6 col-md-3 card-s mb-3 mt-5 col-lg-3">
     <div class="card text-center">
       <div class="card-body">
           <img class="logo" src="~assets/images/Svg/icons Q2.svg" alt="Logo">
@@ -17,7 +18,7 @@
       </div>
     </div>
   </div>
-  <div class="col-sm-3 card-s mb-3 mt-5" >
+  <div class="col-6 col-md-3 card-s mb-3 mt-5 col-lg-3" >
     <div class="card text-center">
       <div class="card-body">
           <img class="logo" src="~assets/images/Svg/Layer 2.svg" alt="Logo">
@@ -25,7 +26,7 @@
       </div>
     </div>
   </div>
-  <div class="col-sm-3 card-s mb-3 mt-5" >
+  <div class="col-6 col-md-3 card-s mb-3 mt-5 col-lg-3" >
     <div class="card text-center">
       <div class="card-body">
          <img class="logo" src="~assets/images/Svg/Layer -1.svg" alt="Logo">
@@ -33,7 +34,7 @@
       </div>
     </div>
   </div>
-   <div class="col-sm-3 card-s mb-3 mt-5">
+   <div class="col-6 col-md-3 card-s mb-3 mt-5 col-lg-3">
     <div class="card text-center">
       <div class="card-body">
           <img class="logo" src="~assets/images/Svg/Layer -3.svg" alt="Logo">
@@ -42,7 +43,7 @@
       </div>
     </div>
    </div>
-   <div class="col-sm-3 card-s mb-3 mt-5">
+   <div class="col-6 col-md-3 card-s mb-3 mt-5 col-lg-3">
     <div class="card text-center">
       <div class="card-body">
            <img class="logo" src="~assets/images/Svg/Layer -2.svg" alt="Logo">
@@ -50,7 +51,7 @@
       </div>
     </div>
   </div>
-  <div class="col-sm-3 card-s mb-3 mt-5">
+  <div class="col-6 col-md-3 card-s mb-3 mt-5 col-lg-3">
     <div class="card text-center">
       <div class="card-body">
            <img class="logo" src="~assets/images/Svg/Mail Box.svg" alt="Logo">
@@ -58,7 +59,7 @@
       </div>
     </div>
   </div>
-    <div class="col-sm-3 card-s mb-3 mt-5" >
+    <div class="col-6 col-md-3 card-s mb-3 mt-5 col-lg-3" >
     <div class="card text-center">
       <div class="card-body">
           <img class="logo" src="~assets/images/Svg/Path 14.svg" alt="Logo">
@@ -69,6 +70,7 @@
 </div>
 </div>
 </section>
+</div>
 </template>
 
 <script>
@@ -81,8 +83,10 @@
 
 .bg-color{
    background: linear-gradient(to top right,#E30F93, #4B38A9);
-   height: 42em;
+   min-height: 42em;
 }
+
+
 
 .logo{
   height: 40%;
@@ -94,6 +98,28 @@
   height: 15rem;
 }
 
+@media (max-width: 500px) {
+  .card-jaribu {
+    overflow: hidden;
+    width: 100%;
+  }
+  /* .row {
+     width: 100%;
+    display: flex;
+  }
+  .card-s {
+    position: relative;
+  } */
+  /* .text-center .card-body p {
+    visibility: hidden;
+  } */
+  .bottom-links {
+    width: 100%;
+  }
+  p {
+  font-size: 13px;
+}
+}
 
 
 </style>
