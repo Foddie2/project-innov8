@@ -1,11 +1,10 @@
 <template>
   <section class="bg-color" >
     <div class="container " style="display:flex">
-      <div class="row">
+      <div class="row mt-3">
   <div class="col-sm-3 card-s mb-3 mt-5" style="max-width: 18rem;">
-    <div class="card text-center">
+    <div class="card text-card text-center">
       <div class="card-body">
-        <h2><i class="fa fa-home fa-3x"></i></h2>
         <h5 class="card-title">Challenge <strong>Benefits</strong></h5>
       </div>
     </div>
@@ -13,7 +12,6 @@
   <div class="col-sm-3 card-s mb-3 mt-5" style="max-width: 18rem;">
     <div class="card text-center">
       <div class="card-body">
-        <h2><i class="fa fa-home fa-3x"></i></h2>
           <img class="logo" src="~assets/images/Svg/icons Q2.svg" alt="Logo">
         <p>One week of learning experience in building innovative solutions</p>
       </div>
@@ -69,15 +67,8 @@
     </div>
     </div>
 </div>
-
-
-
-
-
 </div>
-
-
-  </section>
+</section>
 </template>
 
 <script>
@@ -100,7 +91,7 @@
 }
 
 .card-body{
-  height: 14rem;
+  height: 15rem;
 }
 
 

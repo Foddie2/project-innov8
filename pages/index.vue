@@ -6,6 +6,8 @@
       <CardDisplay/>
       <CardSection/>
       <LargeCards/>
+      <BottomLinks/>
+      <Footer/>
     </div>
   </div>
 </template>

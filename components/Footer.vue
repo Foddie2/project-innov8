@@ -1,17 +1,11 @@
 <template>
-  <div class="container">
+<section class="footer">
 
-<div class="Nav">
-    <nav class="navbar navbar-expand-md navbar-light bg-white">
-        <a href="#" class="navbar-brand">
-            <img class="logo-img" src="~assets/images/Svg/Innov8 Logo.svg" alt="Logo">
-        </a>
-        <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-
+<div class=" container Nav">
+    <nav class="navbar navbar-expand-md">
+        <a class="navbar-brand" href="#" font-weight-bold>Project Innov8</a>
         <div class="collapse navbar-collapse" id="navbarNav">
-    <ul class="navbar-nav mx-auto">
+    <ul class="navbar-nav footer-nav mx-auto ">
       <li class="nav-item active">
         <a class="nav-link active" href="#">About <span class="sr-only" font-weight-bold>(current)</span></a>
       </li>
@@ -32,14 +26,14 @@
       </li>
     </ul>
        <ul class="nav navbar-nav navbar-right">
-        <!-- <img class="logo-img" src="~assets/images/user.png" alt="Logo"> -->
+        <!-- <img class="logo-img" src="~assets/images/up-chevron.png" alt="Logo"> -->
     </ul>
   </div>
     </nav>
-
 </div>
 
-</div>
+
+  </section>
 </template>
 
 <script>
@@ -48,23 +42,21 @@
   }
 </script>
 
-<style >
-.active a {
-        color: black;
-        font-weight: bold;
-    }
+<style>
 
-.logo-img{
-  height: 100%;
-  width: 9rem;
-
+.footer{
+  background-color:#0A2240;
+  padding: 4rem;
 }
+
 .navbar-brand{
-  color: #0133A1 !Important;
+  color: white !Important;
 }
-
-.navbar-nav li a {
-color: #0133A1 !Important;
+ .footer-nav li a{
+  color: white !Important;
 }
 
 </style>
+
+
+

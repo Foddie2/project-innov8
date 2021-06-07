@@ -3,7 +3,7 @@
   <div class="hero-image container">
     <div class="hero-text">
         <p class="snippet">Do you have an <strong>innovative business idea</strong> that addresses our most pressing <strong>challenges?</strong></p>
-      <button class="button btn">APPLY NOW</button>
+      <button class="button btn mt-4">APPLY NOW</button>
     </div>
 
 
@@ -21,7 +21,7 @@
  .bg-image {
    background-image: url("~assets/images/hero-bg.jpg");
    width: 100%;
-  height: 33em;
+  height: 32em;
   position: relative;
   display: flex;
   padding: 5rem 0;

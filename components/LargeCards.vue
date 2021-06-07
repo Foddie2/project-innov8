@@ -16,7 +16,7 @@
           </ul>
        </div>
         <div class="col-md-6">
-          <img class="Innov-image mt-5" src="~assets/images/unrecognizable-man-woman-business-suits-looking-sticky-notes-window.jpeg" alt="Logo">
+          <img class="Innov-image mt-5" src="~assets/images/happy-african-american-office-worker.jpeg" alt="Logo">
           <h5 class="mt-3">Support</h5>
           <ul>
             <li>4 weeks of idea development support for the winning team.</li>
