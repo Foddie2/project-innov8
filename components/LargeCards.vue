@@ -1,6 +1,6 @@
 <template>
 <section>
-   <div class=" container"id="stages">
+   <div class=" container" id="stages">
 
        <h5 class="text-center mt-5">Innovation<strong> Stages</strong></h5>
        <p class="text-center mt-4">You can expect to develop your idea and innovation skills through coaching and sprints which involves</p>
