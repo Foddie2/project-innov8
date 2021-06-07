@@ -4,7 +4,7 @@
 <div class="container ">
   <div class="text-container col-md-10 mx-auto" >
 
-  <div class="col-md-6 col-sm text-area order-sm-first">
+  <div id="about" class="col-md-6 col-sm text-area order-sm-first">
     <h5 class="title">About <strong>Project Innov8</strong></h5>
       <p class="text">The internal innovation challenge is an opportunity for bold Stanbic staff to form cross-departmental teams that are determined to develop new ideas meant to address customer-centric challenges. <br> The challenge is open to all Stanbic staff with 30 staff members, in 10 teams of 3 individuals, selected to participate in the program. <br>During the program, Stanbic Innovators will be supported through the process of interrogating their ideas, developing business models, and pitching them to the bank. <br> <br> During the final pitch a winning team and 2 runners up will be selected. Walking away with $10,000, $5,000 and $2,500 in prizes, respectively.</p>
         <h5><strong>Innovation challenge outcomes</strong></h5>
@@ -18,7 +18,7 @@
 </div>
 </section>
 
-<div class="container ">
+<div class="container " id="eligibility">
   <div class="text-container col-md-10 mx-auto" >
   <div class="col-md-6 mt-3 col-sm title-text order-sm-last">
           <h5 class="title ml-4">Eligibility <strong>Criteria</strong></h5>
@@ -74,6 +74,7 @@
 }
 .text-area{
   background-color: #fff;
+  padding: 20px;
 
 
 }
@@ -99,7 +100,7 @@
   border-style: solid;
   border-width: 0px 0.3em 5em 0px;
   height: 1em;
-  top: 24em;
+  top: 26em;
   left: -0.6em;
   margin-top: -1em;
   transform: rotate(0deg);

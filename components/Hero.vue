@@ -33,6 +33,9 @@
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
+  background-attachment: fixed;
+  transition: 0.5s;
+
     }
     .hero-text {
         width: 49%;
@@ -64,9 +67,34 @@
         color: white;
         /* width: 8rem; */
         font-weight: 700;
-        transition: 0.5s;
+        transition: 0.4s all;
     }
 
+    /* .bg-image:hover .button{
+      transition: 0.5s all;
+      width: 250px;
+    }
+    .bg-image .button:hover{
+       width: 130px;
+    } */
+  /* .button::after{
+    content:'';
+    position: absolute;
+    left: -20%;
+    right: -20%;
+    top:0;
+    transform: skewX(-45deg) scale(0,1);
+  }
+  .button:hover::after{
+    transform: skewX(-45deg) scale(1,1);
+  } */
+
+  .button:hover{
+    background-color: #E1DBDF;
+    color: #0133A1;
+    border: 1px solid #0133A1 ;
+
+  }
     @media (max-width: 500px) {
         .Hero {
             min-height: 50vh;

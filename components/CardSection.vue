@@ -1,5 +1,5 @@
 <template>
-<div class="card-jaribu">
+<div id="benefits" class="card-jaribu">
   <section class="bg-color" >
     <div class="container " style="display:flex">
       <div class="row mt-3 ">
@@ -97,7 +97,12 @@
 .card-body{
   height: 15rem;
 }
-
+.row:hover .card-s{
+      filter: blur(1px);
+    }
+    .row .card-s:hover{
+       filter: blur(0px);
+    }
 @media (max-width: 500px) {
   .card-jaribu {
     overflow: hidden;
