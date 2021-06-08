@@ -2,15 +2,15 @@
 <div>
 <section class="card-section">
 <div class="container ">
-  <div class="text-container col-md-10 mx-auto" >
+  <div class="text-container row mx-auto" >
 
-  <div id="about" class="col-md-6 col-sm text-area order-sm-first">
+  <div id="about" class="col-md-6 col-12 col-lg-6 text-area order-sm-first">
     <h5 class="title">About <strong>Project Innov8</strong></h5>
       <p class="text">The internal innovation challenge is an opportunity for bold Stanbic staff to form cross-departmental teams that are determined to develop new ideas meant to address customer-centric challenges. <br> The challenge is open to all Stanbic staff with 30 staff members, in 10 teams of 3 individuals, selected to participate in the program. <br>During the program, Stanbic Innovators will be supported through the process of interrogating their ideas, developing business models, and pitching them to the bank. <br> <br> During the final pitch a winning team and 2 runners up will be selected. Walking away with $10,000, $5,000 and $2,500 in prizes, respectively.</p>
         <h5><strong>Innovation challenge outcomes</strong></h5>
         <p>Innovation-ready Change Makers</p>
       </div>
-    <div>
+    <div class="col-md-6 col-12 col-lg-6 p-0">
       <img src="~assets/images/online-class.jpg"/>
     </div>
   </div>
@@ -113,7 +113,6 @@
   display: flex;
   margin: 4rem;
   background-color: #F3F3F4;
-  display:flex;
 }
 
 img{

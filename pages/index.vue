@@ -1,7 +1,7 @@
 <template>
   <div class="">
+    <Nav/>
     <div>
-      <Nav/>
       <Hero/>
       <CardDisplay/>
       <CardSection/>
