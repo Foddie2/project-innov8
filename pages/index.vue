@@ -1,23 +1,23 @@
 <template>
   <div class="">
-    <Nav/>
+    <Nav />
     <div>
-      <Hero/>
-      <CardDisplay/>
-      <CardSection/>
-      <LargeCards/>
-      <BottomLinks/>
-      <Footer/>
+      <Hero />
+      <About />
+      <Benefits />
+      <Stages />
+      <BottomLinks />
+      <Footer />
     </div>
   </div>
 </template>
 
 <script>
-export default {}
+export default {};
 </script>
 
 <style>
-*{
+* {
   scroll-behavior: smooth;
 }
 </style>

@@ -1,55 +1,61 @@
 <template>
-<section class="bottom-links">
-  <div class="container">
-    <div class="col-md-12 logo-links mt-4">
-      <div class="col-md-6">
-        <h5 class="text-center">An initiative of</h5>
-      </div>
-      <div class="col-md-6 bottom-icon">
-          <img class="icon" src="~assets/images/Svg/stanbic.svg" alt="Logo">
-           <img class="icon" src="~assets/images/Svg/BH logo Alt innovations black.svg" alt="Logo">
+  <section class="bottom-links">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 logo-links">
+          <h5>An initiative of</h5>
+        </div>
+        <div class="col-md-6 partners">
+          <div class="d-md-flex">
+            <img
+              class="partner-icon mr-md-4"
+              src="~assets/images/Svg/stanbic.svg"
+              alt="Logo"
+            />
+            <img
+              class="partner-icon"
+              src="~assets/images/Svg/BH logo Alt innovations black.svg"
+              alt="Logo"
+            />
+          </div>
+        </div>
       </div>
     </div>
-  </div>
-
-
-
   </section>
-
 </template>
 
 <script>
-  export default {
-
-  }
+export default {};
 </script>
 
 <style>
-.bottom-icon{
+.bottom-icon {
   display: flex;
   justify-content: space-between;
   flex-direction: row;
   height: 3em;
-
 }
-.icon{
-  width: 14em;
+.partners {
+  padding: 0 4em;
 }
-.bottom-links{
-  background-color: #F3F3F4;
+.partner-icon {
+  max-width: 200px;
+  max-height: 200px;
+}
+.bottom-links {
+  background-color: #f3f3f4;
   padding: 4rem;
 }
 
- .logo-links{
-   display: flex;
- }
+.logo-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
- @media (max-width: 500px) {
-  .logo-links {
-    display: contents;
-}
-.bottom-icon {
+@media (max-width: 500px) {
+  .bottom-icon {
     margin-top: 2em;
-}
   }
+}
 </style>
