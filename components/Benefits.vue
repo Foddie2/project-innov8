@@ -98,11 +98,11 @@
   height: 15rem;
 }
 .row:hover .card-s{
-      filter: blur(1px);
-    }
-    .row .card-s:hover{
-       filter: blur(0px);
-    }
+  transition: all .2s ease-in-out;
+}
+.row .card-s:hover{
+  transform: scale(1.1);
+}
 @media (max-width: 500px) {
   .card-jaribu {
     overflow: hidden;

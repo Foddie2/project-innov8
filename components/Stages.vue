@@ -8,7 +8,7 @@
       </p>
       <div class="row mt-md-5">
         <div class="col-md-6">
-          <div class="sprint-image" />
+          <div class="sprint-image"/>
           <h5 class="my-3">Sprint</h5>
           <p class="mb-0">
             <strong>Objectives: </strong>Explore the potential of business idea

@@ -3,8 +3,7 @@
     <div class="container">
       <div class="hero-text">
         <p class="snippet">
-          Do you have an <strong>innovative business idea</strong> that
-          addresses our most pressing <strong>challenges?</strong>
+          Do you have a <strong>big blue idea</strong> that addresses our most pressing challenges
         </p>
         <button class="button btn mt-4">APPLY NOW</button>
       </div>
@@ -36,8 +35,15 @@ export default {};
 }
 .snippet {
   color: #0133a1;
-  font-size: 2rem !important;
+  font-size: 2.5rem !important;
 }
+
+
+
+
+
+
+
 .image {
   width: 27.5rem;
   margin-top: 2rem;
@@ -62,6 +68,9 @@ export default {};
 .snippet {
   font-size: 1.5em;
 }
+
+
+
 .img {
   width: 100px;
   height: 100px;

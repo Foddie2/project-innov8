@@ -1,7 +1,7 @@
 <template>
   <div>
     <section class="about-section">
-      <div class="container ">
+      <div class="container text-p ">
         <div class="text-container row">
           <div
             id="about"
@@ -96,6 +96,39 @@ export default {};
   padding: 1em;
   position: relative;
 }
+
+.title {
+  color:#4B38A9;
+  animation: color 30s linear infinite;
+}
+
+@keyframes color {
+  33.3% { color: #E00D93; }
+  66.7% { color: #4B38A9; }
+}
+
+/*|||||||||||||||||||||||||| */
+
+body:before {
+  content: "";
+  position: absolute;
+  display: block;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  opacity: .1;
+  background-color: currentColor;
+  background-image: linear-gradient(to bottom, currentColor, #fff);
+}
+
+p, h1 {
+  color: black;
+  margin-top: 0;
+}
+
+
+
 .eligibility-section {
   margin: 3em 0;
   position: relative;
@@ -166,17 +199,6 @@ h5,
 h6 {
   color: #0133a1;
 }
-@media (max-width: 500px) {
-  .container {
-    width: 100%;
-  }
-  .text-container {
-    width: 100%;
-    display: grid;
-    padding: initial;
-  }
-  .text-area {
-    margin-bottom: 2em;
-  }
-}
+
+
 </style>
