@@ -1,6 +1,6 @@
 <template>
   <div class="nav-container">
-<div class="Nav">
+   <div class="Nav">
     <nav class="navbar navbar-expand-md navbar-light bg-white">
         <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
             <span class="navbar-toggler-icon"></span>
@@ -10,7 +10,7 @@
            <a href="#" class="navbar-brand">
             <img class="logo-img" src="~assets/images/Svg/Innov8 Logo.svg" alt="Logo">
         </a>
-    <ul class="navbar-nav mx-auto">
+       <ul class="navbar-nav mx-auto">
       <li class="nav-item active">
         <a class="nav-link active" href="#about">About <span class="sr-only" font-weight-bold>(current)</span></a>
       </li>
@@ -30,14 +30,13 @@
         <a class="nav-link" href="#contacts">Contacts</a>
       </li>
     </ul>
-       <ul class="nav navbar-nav navbar-right">
-         <svg  xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#0133A1" class="bi bi-person-fill" viewBox="0 0 16 16">
-  <path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
-</svg>
+    <ul class="nav navbar-nav navbar-right">
+    <svg  xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#0133A1" class="bi bi-person-fill" viewBox="0 0 16 16">
+    <path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
+    </svg>
     </ul>
   </div>
-    </nav>
-
+</nav>
 </div>
 
 </div>
@@ -45,8 +44,9 @@
 
 <script>
   export default  {
-
-
+    data(){
+         
+    }
 
   }
 </script>
@@ -61,9 +61,9 @@
 
 
 .active a {
-        color: black;
-        font-weight: bold;
-    }
+  color: black;
+  font-weight: bold;
+}
 
 .logo-img{
   height: 100%;

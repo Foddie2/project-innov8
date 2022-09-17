@@ -38,12 +38,6 @@ export default {};
   font-size: 2.5rem !important;
 }
 
-
-
-
-
-
-
 .image {
   width: 27.5rem;
   margin-top: 2rem;
@@ -68,8 +62,6 @@ export default {};
 .snippet {
   font-size: 1.5em;
 }
-
-
 
 .img {
   width: 100px;
