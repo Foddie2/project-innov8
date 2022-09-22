@@ -1,5 +1,7 @@
 <template>
   <div>
+    <Nav/>
+
     Hello
 
   </div>
