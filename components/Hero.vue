@@ -62,7 +62,6 @@ export default {};
 .snippet {
   font-size: 1.5em;
 }
-
 .img {
   width: 100px;
   height: 100px;

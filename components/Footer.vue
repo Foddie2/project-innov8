@@ -1,6 +1,5 @@
 <template>
 <section class="footer">
-
 <div class=" container Nav">
     <nav class="navbar navbar-expand-md">
         <a class="navbar-brand" href="#" font-weight-bold>Project Innov8</a>
