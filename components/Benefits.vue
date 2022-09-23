@@ -75,7 +75,6 @@
 
 <script>
   export default {
-
   }
 </script>
 
@@ -85,8 +84,6 @@
    background: linear-gradient(to top right,#E30F93, #4B38A9);
    min-height: 42em;
 }
-
-
 
 .logo{
   height: 40%;
